@@ -112,7 +112,7 @@ class Unmined {
                             && tileY <= maxTileY
                             && hasTile()) {
                             // Use github repo's data
-                            const url = ('https://raw.githubusercontent.com/prkdmc/2022-03-29/master/the_end/tiles/zoom.{z}/{xd}/{yd}/tile.{x}.{y}.' + options.imageFormat)
+                            const url = ('https://raw.githubusercontent.com/prkdmc/2022-03-29/master/tiles/the_end/zoom.{z}/{xd}/{yd}/tile.{x}.{y}.' + options.imageFormat)
                                 .replace('{z}', worldZoom)
                                 .replace('{yd}', Math.floor(tileY / 10))
                                 .replace('{xd}', Math.floor(tileX / 10))
